@@ -3,10 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - IjsWorkShopWeb</title>
+    <title>@ViewData["Title"] - IjsCodingWorkShop</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/IjsWorkShopWeb.styles.css" asp-append-version="true" />
+
+    <link rel="icon" type="image/x-icon" href="~/Images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Images/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Images/favicon-16x16.png" />
+    <link rel="manifest" href="~/Images/site.webmanifest" />
+
+
 </head>
 <body>
     <header>
@@ -17,16 +25,16 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                @*<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         @*<li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>*@
+                        </li>
                     </ul>
-                </div>
+                </div>*@
             </div>
         </nav>
     </header>

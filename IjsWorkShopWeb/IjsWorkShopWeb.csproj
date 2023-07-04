@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <None Include="wwwroot\Images\IJ%27s Coding Workshop-logos.jpeg" />
-    <None Include="wwwroot\Images\IJ%27s Coding Workshop-logos.zip" />
     <None Include="wwwroot\Images\IJ%27s Coding Workshop-logos_black.png" />
     <None Include="wwwroot\Images\IJ%27s Coding Workshop-logos_transparent.png" />
     <None Include="wwwroot\Images\IJsCoding_Workshop_logos_white.png" />
