@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\IJ%27s Coding Workshop-logos.jpeg" />
+    <None Include="wwwroot\Images\IJ%27s Coding Workshop-logos.zip" />
+    <None Include="wwwroot\Images\IJ%27s Coding Workshop-logos_black.png" />
+    <None Include="wwwroot\Images\IJ%27s Coding Workshop-logos_transparent.png" />
+    <None Include="wwwroot\Images\IJsCoding_Workshop_logos_white.png" />
+    <None Include="wwwroot\Images\IJs_Coding_Workshop_logos_white.jpg" />
+    <None Include="wwwroot\Images\logo_info.txt" />
+  </ItemGroup>
+
+</Project>
